@@ -1,0 +1,225 @@
+#bodyContainer{
+  border: #ccc;
+}
+
+#answerContainer{
+  display: flex;
+  
+}
+
+#resultContainer{
+  display: none;
+}
+
+#titleContainer{
+  color: #f5f5f5;
+  font-family: 'Mountains of Christmas', sans-serif;
+  font-size: 90px;
+  
+}
+/* styles.css */
+
+body {
+  /* font-family: 'Mountains of Christmas', sans-serif; */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ec2525;
+  border: 20px solid #ffffff;; /* Change the values as needed: 10px is the border width, #000 is the border color */
+  box-sizing: border-box; /* This ensures the border width is included in the total width of the body */
+  font-size: large;
+  border-style: dotted;
+ 
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+#startBtnContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#startBtn {
+  background-color: #23c733;
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 2rem; /* Adjust padding to maintain proportions */
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition for smooth color change */
+}
+
+#startBtn:hover {
+  background-color: darkgreen; /* Change color on hover for a visual effect */
+}
+/* button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  background-color: #3498db;
+  color: rgb(0, 0, 0);
+  transition: background-color 0.3s ease;
+} */
+
+/* button:hover {
+  background-color: #2980b9;
+} */
+
+#questionContainer {
+  margin: 20px 0;
+  color: whitesmoke
+}
+
+#card {
+  background-color: #ffffff;
+  border-radius: 4rem;
+  box-shadow: black;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  padding-top: 2.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Improved box-shadow with proper values */
+  max-width: 70rem;
+  display: none;
+  padding-bottom: 1.5rem;
+  
+}
+
+#option1 {
+  display: block;
+  width: 100%;
+  padding: 15px 25px;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #00ff1a;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 35px;
+  border: 5px black;
+  border-style: solid;
+}
+#option2 {
+  display: block;
+  width: 100%;
+  padding: 15px 25px;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #0099ff;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 35px;
+  border: 5px black;
+  border-style: solid;
+}
+#option3 {
+  display: block;
+  width: 100%;
+  padding: 15px 25px;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fbff00;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 35px;
+  border: 5px black;
+  border-style: solid;
+}
+#option4 {
+  display: block;
+  width: 100%;
+  padding: 15px 25px;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #ff00c3;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 35px;
+  border: 5px black;
+  border-style: solid;
+}
+
+#option1:hover, #option2:hover, #option3:hover, #option4:hover{
+  background-color: rgb(205, 205, 205);
+}
+
+
+#resultContainer {
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(10, 10, 10);
+  display: none;
+}
+
+#resultMessageContainer {
+  margin-top: 20px;
+  font-style: italic;
+  font-family: 'Mountains of Christmas', sans-serif;
+  font-size: 36px;
+  text-align: center;
+  display: none;
+  color: rgb(10, 10, 10);
+}
+
+#questionNumber{
+  display: none;
+  color: rgb(10, 10, 10);
+  font-size: 30px;
+}
+
+#catergoryContainer{
+  text-align: center;
+  color: rgb(10, 10, 10);
+  font-size: 30px;
+}
+
+
+#question{
+  max-width: 65rem;
+  color: rgb(10, 10, 10);
+  font-size: 45px;
+}
+
+#timerContainer{
+  margin-top: 2rem;
+  text-align: center;
+  color: rgb(10, 10, 10);
+  /* font-family: 'Mountains of Christmas', sans-serif; */
+  font-size: 35px;
+padding-top: 1rem;
+}
+
+#outerBorder{
+  background-color: #ec2525;
+  border: 20px solid #dcf829;; /* Change the values as needed: 10px is the border width, #000 is the border color */
+  box-sizing: border-box; /* This ensures the border width is included in the total width of the body */
+  font-size: large;
+  border-style: dotted;
+  border-radius: 4rem;
+  padding: 1rem;
+}
